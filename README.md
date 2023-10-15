@@ -1,4 +1,4 @@
 # Javascript
 Learning JavaScript 
  <br>
- part one : Varibles
+ part one : Variables

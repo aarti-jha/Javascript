@@ -23,9 +23,18 @@ the both values(original and assigned one.) */
     email : "sarita@gmail.com", 
   }
 
+  
+
   let obj2 =obj;
 
   obj2.Name="Hema"
 
   console.log(obj.Name);//Hema
   console.log(obj2.Name);//Hema
+
+  let arr = ["ram", "shyam" , "rita"]
+
+  let arr1=arr;
+  arr1[0] = "gita";
+  console.log(arr[0]);//gita
+  console.log(arr1[0]);//gita

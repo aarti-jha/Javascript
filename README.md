@@ -4,3 +4,7 @@ Learning JavaScript
  part one : Variables
  <br>
  part two : conversion
+ <br>
+ part three : operator
+ <br>
+ part four : memory 

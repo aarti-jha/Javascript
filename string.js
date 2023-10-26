@@ -1,5 +1,12 @@
 const sentence = 'The quick brown fox jumps over the lazy dog lazy. It barked.';
 const icons = '☃★♲';
+
+const str=new String('hello');
+console.log(str);
+//console.log(str.toString());
+
+console.log(str.valueOf())
+
 //console.log(`${sentence.at(6)}`)//i  from first
 //console.log(`${sentence.at(-6)}`)//y  from last
 
@@ -30,7 +37,37 @@ const icons = '☃★♲';
 //console.log(`index of lazy is ${sentence.indexOf('lazy')}`) // from begining
 //console.log(`index of lazy is ${sentence.lastIndexOf('lazy')}`) // from last
 
-console.log(sentence.match(/[A-Z]/g))
+//console.log(sentence.match(/[A-Z]/g))
+
+//console.log(sentence.length);
+
+//console.log(`repeat the word \n ${sentence.repeat(3)}`);
+
+//console.log(`${sentence.replace('lazy','diligent')}`)
+//console.log(`${sentence.replaceAll('lazy','diligent')}`)
+
+//console.log(`${sentence.search('lazy')}`);
+
+//console.log(sentence.slice(35))
+//console.log(sentence.slice(35,39))
+//console.log(sentence.slice(35,-20))
 
 
+//console.log(sentence.split(' ')); //words into array
+//console.log(sentence.split('')); // letters into array
+//console.log(sentence.split()); // sentence into array
 
+//console.log(sentence.startsWith('The'));//true
+//console.log(sentence.startsWith('The' , 0));//true
+//console.log(sentence.startsWith('The',3));//false
+
+//console.log(sentence.substring(35,39));
+//console.log(sentence.toLowerCase());
+//console.log(sentence.toUpperCase());
+
+
+const str1 ="  hello   ";
+//console.log(str1);
+//console.log(str1.trim());
+//console.log(str1.trimStart());
+//console.log(str1.trimEnd());

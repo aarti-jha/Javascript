@@ -1,4 +1,4 @@
-
+//object literals
 const sym=Symbol('key');
 const user ={
     name:"kashish",
